@@ -91,8 +91,8 @@ export const updateUserPreferences = async (data: any) => {
   return response.data;
 };
 
-export const startDiditVerification = async () => {
-  const response = await apiClient.post("/didit/create-verification", {});
+export const startHaloKycVerification = async () => {
+  const response = await apiClient.post("/halokyc/create-verification", {});
   return response.data;
 };
 

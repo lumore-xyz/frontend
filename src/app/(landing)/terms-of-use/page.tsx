@@ -232,10 +232,10 @@ const TermsOfUse = () => {
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-3">
-          Identity Verification (Didit) Terms
+          Identity Verification (HaloKYC) Terms
         </h2>
         <p className="mb-3">
-          Lumore may offer identity verification through Didit on an opt-in
+          Lumore may offer identity verification through HaloKYC on an opt-in
           basis or as required for specific features.
         </p>
         <ul className="list-disc ml-5 space-y-1 text-ui-shade/90">
@@ -243,11 +243,11 @@ const TermsOfUse = () => {
             Verification may include selfie/face scan and government ID checks.
           </li>
           <li>
-            You authorize Lumore to share necessary information with Didit to
+            You authorize Lumore to share necessary information with HaloKYC to
             process verification.
           </li>
           <li>
-            Didit is an independent third-party provider and processes data
+            HaloKYC is an independent third-party provider and processes data
             under its own terms and privacy policies.
           </li>
           <li>
@@ -331,7 +331,7 @@ const TermsOfUse = () => {
           <li>Google Sign-In and related authentication tools.</li>
           <li>Google Analytics for analytics and usage insights.</li>
           <li>Meta Ads, Google Ads, and AdMob for advertising and monetization.</li>
-          <li>Didit for identity verification.</li>
+          <li>HaloKYC for identity verification.</li>
           <li>Google Gemini for AI-assisted features.</li>
         </ul>
         <p>

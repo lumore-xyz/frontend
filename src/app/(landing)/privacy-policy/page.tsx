@@ -101,11 +101,11 @@ const PrivacyPolicy = () => {
             health-related information.
           </li>
           <li>
-            <strong>Identity verification information:</strong> we use Didit for
+            <strong>Identity verification information:</strong> we use HaloKYC for
             identity verification, which may involve a selfie/face scan and
             government ID. Lumore generally receives verification outputs such
             as verification status and related metadata needed for safety and
-            fraud prevention. Didit processes verification data according to its
+            fraud prevention. HaloKYC processes verification data according to its
             own terms and privacy documentation.
           </li>
           <li>
@@ -217,7 +217,7 @@ const PrivacyPolicy = () => {
             analytics, ads, customer support, moderation, and security.
           </li>
           <li>Google Sign-In for authentication services.</li>
-          <li>Didit for identity verification workflows.</li>
+          <li>HaloKYC for identity verification workflows.</li>
           <li>
             Advertising and analytics partners such as Google Analytics, Meta
             Ads, Google Ads, and AdMob.
@@ -316,7 +316,7 @@ const PrivacyPolicy = () => {
           </li>
           <li>
             Identity Verification: Lumore generally retains verification
-            status/results needed for trust and safety; Didit retains and
+            status/results needed for trust and safety; HaloKYC retains and
             processes verification inputs under its own terms.
           </li>
           <li>

@@ -3,7 +3,7 @@
 import Icon from "@/components/icon";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { deletePost, startDiditVerification } from "@/lib/apis";
+import { deletePost, startHaloKycVerification } from "@/lib/apis";
 import { getUser } from "@/service/storage";
 import {
   calculateAge,
@@ -90,7 +90,7 @@ const MyProfile = ({
   const handleStartVerification = async () => {
     try {
       setStartingVerification(true);
-      const response = await startDiditVerification();
+      const response = await startHaloKycVerification();
 
       if (response?.verificationUrl) {
         window.location.assign(response.verificationUrl);
